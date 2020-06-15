@@ -1,0 +1,34 @@
+{
+  "name": "accelerate-api-call-with-node-clusters",
+  "version": "1.0.0",
+  "description": "Example of using node clusters to accelerat the execution of API calls",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd -f ./env/dev.env node ./src/index",
+    "pretest": "./node_modules/.bin/eslint --fix",
+    "test": "env-cmd -f ./env/dev.env mocha src/**/*.*",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bryanb702/accelerate-api-call-with-node-clusters.git"
+  },
+  "author": "Bryan Bullard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bryanb702/accelerate-api-call-with-node-clusters/issues"
+  },
+  "homepage": "https://github.com/Bryanb702/accelerate-api-call-with-node-clusters#readme",
+  "dependencies": {
+    "node-rest-client": "^3.1.0",
+    "request": "^2.88.2",
+    "yahoo-finance-scraper": "0.0.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "env-cmd": "^10.1.0",
+    "eslint": "^7.2.0",
+    "sinon": "^9.0.2"
+  }
+}
