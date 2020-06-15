@@ -10,7 +10,8 @@ var watchList = [
     'BAC',
     'QQQ',
     'GOOG',
-    'TSLA'
+    'TSLA',
+    'ERROR'
   ];
 
   module.exports = watchList;
